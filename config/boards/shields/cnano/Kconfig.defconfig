@@ -8,10 +8,12 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-
 if SHIELD_CNANO_LEFT || SHIELD_CNANO_RIGHT
 
 config ZMK_SPLIT
     default y
 
 endif
+
+config ZMK_BLE
+    default y
